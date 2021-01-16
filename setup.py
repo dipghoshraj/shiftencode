@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="shiftencode", # Replace with your own username
-    version="0.0.1",
+    version="0.0.3",
     author="Dip Ghosh",
     author_email="dipghoshraj@gmail.com",
     description="shift-encode is a encoding and decoding libery for text and messages",

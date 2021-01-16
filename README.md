@@ -19,18 +19,18 @@ First install all requirement file:
 
 Step 1 :  Encode a message with shiftencoder
 ```
->>> from shiftencoder import encrypt
+>>> from shiftencode import encrypt
 >>> encrypt(message="hello-world", salt="test")
 'sftend216se213se220se220se223se157se231se223se226se220se212se'
 ```
 Step 2 :  Decode the message using shiftencoder
 ```
->>> from shiftencoder import encrypt
+>>> from shiftencode import decrypt
 >>> decrypt(message="sftend216se213se220se220se223se157se231se223se226se220se212se", salt="test")
 ```
 Step 3 : verify the sources of the message
 ```
->>> from shiftencoder import validator
+>>> from shiftencode import validator
 >>> validator(message="sftend216se213se220se220se223se157se231se223se226se220se212se", salt="test", verifier="hello-world")
 True
 >>> validator(message="sftend216se213se220se220se223se157se231se223se226se220se212se", salt="twts", verifier="hello-world")
@@ -49,4 +49,4 @@ IOT and robotics developer with a handson experience in Software development and
 ```
 
 
-**Free Software, Yeah it's fucking truth!**
+<!-- **Free Software, Yeah it's fucking truth!** -->
