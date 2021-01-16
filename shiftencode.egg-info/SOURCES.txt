@@ -1,0 +1,9 @@
+README.md
+setup.py
+shiftencode/Algorithem.py
+shiftencode/__init__.py
+shiftencode/sftascii.py
+shiftencode.egg-info/PKG-INFO
+shiftencode.egg-info/SOURCES.txt
+shiftencode.egg-info/dependency_links.txt
+shiftencode.egg-info/top_level.txt
