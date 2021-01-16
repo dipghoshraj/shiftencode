@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: shiftencode
-Version: 0.0.3
+Version: 0.0.4
 Summary: shift-encode is a encoding and decoding libery for text and messages
 Home-page: https://github.com/dipghoshraj/shiftencode
 Author: Dip Ghosh
@@ -19,7 +19,7 @@ Description: # SHIFT-ENCODER
         #### Building for source
         First install all requirement file:
         ```sh
-        >>> pip install shiftencode==0.0.1
+        >>> pip install shiftencode
         ```
          
         
@@ -57,7 +57,7 @@ Description: # SHIFT-ENCODER
         ```
         
         
-        **Free Software, Yeah it's fucking truth!**
+        <!-- **Free Software, Yeah it's fucking truth!** -->
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

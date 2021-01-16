@@ -11,7 +11,7 @@ shift-encode is a encoding and decoding libery for file or message encoding with
 #### Building for source
 First install all requirement file:
 ```sh
->>> pip install shiftencode==0.0.1
+>>> pip install shiftencode
 ```
  
 
