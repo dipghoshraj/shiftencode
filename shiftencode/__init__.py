@@ -1,10 +1,10 @@
 from .Algorithem import  *
 
-def encrypt(keyword, salt):
-    return shift_encrypt(keyword, salt)
+def encrypt(message, salt):
+    return shift_encrypt(message, salt)
 
-def decrypt(keyword, salt):
-    return shift_decrypt(keyword, salt)
+def decrypt(message, salt):
+    return shift_decrypt(message, salt)
 
-def validator(keyword, salt, verifier):
-    return verify(keyword, salt, verifier)
+def validator(message, salt, verifier):
+    return verify(message, salt, verifier)
